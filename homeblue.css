@@ -1,4 +1,4 @@
-/* home.css - Only for index.html (Home page) - GREEN THEME */
+ /* home.css - Only for index.html (Home page) */
 
 /* Background Image Setup */
 body.home-page {
@@ -8,25 +8,25 @@ body.home-page {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-    color: #e8f5e9;   /* very light green-white for better readability */
+    color: white;
 }
 
-/* Dark overlay so text is readable - adjusted to green-tinted dark */
+/* Dark overlay so text is readable */
 body.home-page::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(13, 27, 42, 0.68);   /* darker base + slight green tint possible */
+    background: rgba(13, 27, 42, 0.62);   /* dark blue tint - adjust 0.5–0.7 */
     z-index: -1;
 }
 
-/* Header - green semi-transparent */
+/* Header - Keep logo left, move nav to RIGHT */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5%;
-    background: rgba(76, 175, 80, 0.25);   /* semi-transparent vibrant green */
+    background: rgba(77, 166, 255, 0.25);   /* light sky blue semi-transparent */
     backdrop-filter: blur(8px);
     position: sticky;
     top: 0;
@@ -38,7 +38,6 @@ header h1 {
     font-size: 2.2rem;
     font-weight: bold;
     text-shadow: 0 2px 8px rgba(0,0,0,0.6);
-    color: white;
 }
 
 header nav ul {
@@ -60,10 +59,10 @@ header nav a {
 }
 
 header nav a:hover {
-    background: rgba(255,255,255,0.18);
+    background: rgba(255,255,255,0.2);
 }
 
-/* Mission & Vision - Beautiful cards with green transparency */
+/* Mission & Vision - Beautiful cards */
 main {
     min-height: 80vh;
     display: flex;
@@ -79,17 +78,17 @@ section {
     max-width: 800px;
     margin: 2rem 0;
     padding: 2.5rem;
-    background: rgba(46, 125, 50, 0.45);   /* semi-transparent forest green */
+    background: rgba(43, 108, 176, 0.45);   /* semi-transparent blue */
     border-radius: 16px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(165, 214, 167, 0.15);
+    border: 1px solid rgba(255,255,255,0.15);
     box-shadow: 0 10px 35px rgba(0,0,0,0.35);
 }
 
 h2 {
     font-size: 2.8rem;
     margin-bottom: 1.2rem;
-    color: #A5D6A7;   /* light mint-green accent */
+    color: #a5d8ff;   /* light sky blue */
     text-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
@@ -118,4 +117,4 @@ p {
     p {
         font-size: 1.15rem;
     }
-}
+} 

@@ -1,4 +1,4 @@
-/* styles.css - Unified GREEN theme for nature/growth feel */
+/* styles.css - Unified theme matching home.css */
 
 /* Reset & Base */
 * {
@@ -10,8 +10,8 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
-    color: #e8f5e9;              /* very light green-white for contrast */
-    background-color: #0d1b2a;   /* deep dark base (kept for depth/readability) */
+    color: #e6f0ff;              /* very light blue-white for better contrast */
+    background-color: #0d1b2a;   /* deep navy blue - matches home overlay vibe */
 }
 
 /* Container */
@@ -21,9 +21,9 @@ body {
     padding: 0 20px;
 }
 
-/* Header & Navigation - green semi-transparent */
+/* Header & Navigation - same style as home.css */
 header {
-    background: rgba(76, 175, 80, 0.25);  /* semi-transparent vibrant green */
+    background: rgba(77, 166, 255, 0.25);  /* semi-transparent sky blue */
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     color: white;
@@ -89,28 +89,28 @@ main {
 section {
     margin-bottom: 4.5rem;
     padding: 2.8rem;
-    background: rgba(46, 125, 50, 0.35);   /* semi-transparent forest green */
+    background: rgba(43, 108, 176, 0.35);   /* semi-transparent deep sky blue */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 16px;
-    border: 1px solid rgba(165, 214, 167, 0.12);
+    border: 1px solid rgba(255,255,255,0.12);
     box-shadow: 0 8px 32px rgba(0,0,0,0.35);
 }
 
 /* Headings */
 h2 {
-    color: #A5D6A7;                    /* light mint-green accent */
+    color: #a5d8ff;                    /* light sky blue from home.css */
     margin-bottom: 1.4rem;
     font-size: 2.4rem;
     font-weight: 700;
     text-shadow: 0 2px 8px rgba(0,0,0,0.4);
-    border-bottom: 3px solid rgba(165, 214, 167, 0.4);
+    border-bottom: 3px solid rgba(165, 216, 255, 0.4);
     padding-bottom: 0.7rem;
     display: inline-block;
 }
 
 h3 {
-    color: #A5D6A7;
+    color: #a5d8ff;
     margin-bottom: 1rem;
     font-size: 1.6rem;
 }
@@ -128,7 +128,7 @@ h3 {
     border-radius: 12px;
     overflow: hidden;
     backdrop-filter: blur(6px);
-    border: 1px solid rgba(165,214,167,0.15);
+    border: 1px solid rgba(255,255,255,0.15);
     transition: all 0.35s ease;
 }
 
@@ -152,7 +152,7 @@ h3 {
 .about-text, .contact-info {
     max-width: 800px;
     margin: 0 auto;
-    background: rgba(46, 125, 50, 0.35);
+    background: rgba(43, 108, 176, 0.35);
     padding: 2.5rem;
     border-radius: 16px;
     backdrop-filter: blur(10px);
@@ -168,7 +168,7 @@ form label {
     display: block;
     margin-bottom: 0.6rem;
     font-weight: 500;
-    color: #e8f5e9;
+    color: #e6f0ff;
 }
 
 form input, form textarea {
@@ -176,7 +176,7 @@ form input, form textarea {
     padding: 1rem;
     margin-bottom: 1.4rem;
     background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(165,214,167,0.3);
+    border: 1px solid rgba(165,216,255,0.3);
     border-radius: 8px;
     color: white;
     font-size: 1rem;
@@ -184,12 +184,12 @@ form input, form textarea {
 
 form input:focus, form textarea:focus {
     outline: none;
-    border-color: #A5D6A7;
-    box-shadow: 0 0 0 3px rgba(165, 214, 167, 0.25);
+    border-color: #a5d8ff;
+    box-shadow: 0 0 0 3px rgba(165, 216, 255, 0.25);
 }
 
 form button {
-    background-color: #4CAF50;          /* vibrant green button */
+    background-color: #4da6ff;
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -201,18 +201,18 @@ form button {
 }
 
 form button:hover {
-    background-color: #388E3C;          /* darker green on hover */
+    background-color: #3385ff;
     transform: translateY(-2px);
 }
 
 /* Footer */
 footer {
-    background: rgba(46, 125, 50, 0.85);  /* deep forest green */
-    color: #e8f5e9;
+    background: rgba(43, 108, 176, 0.85);
+    color: #e6f0ff;
     text-align: center;
     padding: 2rem 0;
     margin-top: 4rem;
-    border-top: 1px solid rgba(165,214,167,0.2);
+    border-top: 1px solid rgba(165,216,255,0.2);
 }
 
 /* Responsive Design */
@@ -227,7 +227,7 @@ footer {
         display: none;
         flex-direction: column;
         width: 100%;
-        background: rgba(76, 175, 80, 0.9);
+        background: rgba(77, 166, 255, 0.9);
         position: absolute;
         top: 100%;
         left: 0;
