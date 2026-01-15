@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BabyStep Foundation [LIMP]</title>
+    <link rel="stylesheet" href="styles.css">         <!-- your original styles -->
+    <link rel="stylesheet" href="home.css">           <!-- new home-specific styles -->
+</head>
+<body class="home-page">
+
+    <header>
+        <h1>BabyStep Foundation [LIMP]</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="mission">
+            <h2>Our Mission</h2>
+            <p>Alleviating lives of people from poverty through action-based initiatives.</p>
+        </section>
+        
+        <section id="vision">
+            <h2>Our Vision</h2>
+            <p>To improve well-being of lives of people at individual and family level by 2035.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 BabyStep Foundation</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/265999123456?text=Hello%20BabyStep%20Foundation!%20Ndi%20kufuna%20kudziwa%20zambiri..." 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   title="Chat with us on WhatsApp">
+    <img src="https://logos-world.net/wp-content/uploads/2020/05/WhatsApp-Symbol.png" 
+         alt="WhatsApp" 
+         width="60" 
+         height="60">
+</a>
+
+<style>
+    .whatsapp-float {
+        position: fixed;
+        width: 70px;
+        height: 70px;
+        bottom: 30px;
+        right: 30px;
+        background-color: #25D366;
+        color: #FFF;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 40px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        z-index: 999;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .whatsapp-float img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .whatsapp-float:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    /* Responsive - smaller on mobile */
+    @media (max-width: 768px) {
+        .whatsapp-float {
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+        }
+        .whatsapp-float img {
+            width: 52px;
+            height: 52px;
+        }
+    }
+</style>
+</body>
+</html>
